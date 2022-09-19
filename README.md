@@ -59,8 +59,7 @@ turpis.
 
 **ENLACE**
 
-Esto es un enlace a [Google](https://google.com)
-Esto es un enlace a [README2.md](./README2.md)
+Esto es un enlace a [Google](https://google.com) y esto es un enlace a [README2.md](./README2.md)
 
 **IMAGEN**
 
