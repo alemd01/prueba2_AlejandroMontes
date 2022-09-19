@@ -64,7 +64,7 @@ Esto es un enlace a [README2.md](./README2.md)
 
 **IMAGEN**
 
-!(IMG.png)
+![imagen](IMG.png)
 
 **TABLA**
 | PRIMERA COLUMNA | SEGUNDA COLUMNA | TERCERA COLUMNA |
