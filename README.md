@@ -12,32 +12,33 @@ porta leo sit amet, feugiat elit. Orci varius natoque penatibus et magnis dis pa
 montes, nascetur ridiculus mus. Sed bibendum turpis mollis, mattis ante aliquet, eleifend
 turpis. 
 >_Praesent feugiat risus dui, ac iaculis libero pulvinar eget.- Pablo coelho_
-    
-    quien=$(whoami)
-    function f_soyroot {
-    if [[ $quien = "root" ]]
-        then
-            return 0
-        else
-            return 1
-    fi
-    }
-    function f_hayinternet {
-    if [[ $(ping -c 1 8.8.8.8) ]]
-        then
-	        return 0
-        else
-	        return 1
-    fi
-    }
-    function f_ipvalidator {
-    if [[ $1 =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]]
-        then
-	        return 0
-        else
-	        return 1
-    fi
-    }
+<pre>    
+quien=$(whoami)
+function f_soyroot {
+if [[ $quien = "root" ]]
+    then
+        return 0
+    else
+        return 1
+fi
+}
+function f_hayinternet {
+if [[ $(ping -c 1 8.8.8.8) ]]
+    then
+        return 0
+    else
+        return 1
+fi
+}
+function f_ipvalidator {
+if [[ $1 =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]]
+    then
+        return 0
+    else
+        return 1
+fi
+}
+</pre>
 **LISTA ORDENADA**
 1. IAW
 2. SAD
